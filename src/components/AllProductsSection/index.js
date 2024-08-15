@@ -170,7 +170,7 @@ class AllProductsSection extends Component {
 
     switch (apiStatus) {
       case apiStatusConstants.success:
-        return this.renderProductsList()
+        return this.renderProductsListView()
       case apiStatusConstants.failure:
         return this.renderFailureView()
       case apiStatusConstants.inProgress:
